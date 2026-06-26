@@ -13,7 +13,7 @@ const NAV = [
 
 export default function Header({ brand }) {
   const [open, setOpen] = useState(false);
-  const brandName = brand?.name || 'Trello Clone';
+  const brandName = brand?.name || 'Code Web Không Khó';
 
   return (
     <header className="site-header">

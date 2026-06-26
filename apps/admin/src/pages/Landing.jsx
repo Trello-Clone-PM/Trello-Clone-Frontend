@@ -292,7 +292,7 @@ export function LandingPage() {
       {header}
       <div style={{ display: 'flex', flexDirection: 'column', gap: space.lg, maxWidth: 1200, paddingBottom: 96 }}>
         <SectionCard Icon={Tag} title="Brand" description="Product name shown across the site.">
-          <Input label="Brand name" value={f.brand.name} onChange={(e) => setBrand('name', e.target.value)} placeholder="Trello" />
+          <Input label="Brand name" value={f.brand.name} onChange={(e) => setBrand('name', e.target.value)} placeholder="Code Web Không Khó" />
         </SectionCard>
 
         <SectionCard Icon={Sparkles} title="Hero" description="The top banner: headline, subheadline, CTAs and image.">
@@ -398,7 +398,7 @@ export function LandingPage() {
         <SectionCard Icon={PanelBottom} title="Footer" description="Footer tagline and copyright line.">
           <div style={{ display: 'flex', flexDirection: 'column', gap: space.base }}>
             <Input label="Tagline" value={f.footer.tagline} onChange={(e) => setFooter('tagline', e.target.value)} />
-            <Input label="Copyright" value={f.footer.copyright} onChange={(e) => setFooter('copyright', e.target.value)} placeholder="© 2026 Trello Clone" />
+            <Input label="Copyright" value={f.footer.copyright} onChange={(e) => setFooter('copyright', e.target.value)} placeholder="© 2026 Code Web Không Khó" />
           </div>
         </SectionCard>
       </div>

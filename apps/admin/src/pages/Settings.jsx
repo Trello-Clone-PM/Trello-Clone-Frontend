@@ -124,7 +124,7 @@ export function SettingsPage() {
         <Card style={{ maxWidth: 560 }}>
           <h2 style={{ fontFamily: font.display, fontSize: 17, fontWeight: 700, color: color.text, margin: `0 0 ${space.base}` }}>About</h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: space.sm, fontSize: 14, color: color.text }}>
-            <Row label="Console" value="Trello Clone — Admin" />
+            <Row label="Console" value="Code Web Không Khó — Admin" />
             <Row label="Environment" value={window.location.host} />
             <Row label="Build" value="v1.2.0" />
           </div>

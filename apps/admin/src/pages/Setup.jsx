@@ -49,7 +49,7 @@ export function SetupPage() {
             display: 'inline-flex', alignItems: 'center', justifyContent: 'center', color: '#fff',
             boxShadow: '0 8px 24px rgba(24,104,219,0.4)',
           }}><ShieldCheck size={28} /></span>
-          <span style={{ fontFamily: font.display, fontSize: 22, fontWeight: 700, color: '#fff' }}>Welcome to Trello Admin</span>
+          <span style={{ fontFamily: font.display, fontSize: 22, fontWeight: 700, color: '#fff' }}>Welcome to Code Web Không Khó Admin</span>
           <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: 14, textAlign: 'center' }}>
             Create the first super administrator account. This page is shown only once.
           </span>

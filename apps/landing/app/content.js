@@ -2,7 +2,7 @@ import { color } from './tokens';
 
 // Hardcoded fallback content. Used when the CMS API is unavailable or a field is missing.
 export const DEFAULTS = {
-  brand: { name: 'Trello Clone' },
+  brand: { name: 'Code Web Không Khó' },
   chatbot: {
     enabled: true,
     title: 'Hỏi đáp nhanh với Trợ lý AI trên Zalo',
@@ -43,7 +43,7 @@ export const DEFAULTS = {
     { name: 'Business', price: '$10', period: '/ user / mo', tag: 'For organizations', features: ['Everything in Pro', 'Admin console', 'Advanced permissions', 'Usage insights', 'SSO ready'], ctaLabel: 'Contact sales' },
   ],
   faq: [
-    { q: 'Is Trello Clone really free to start?', a: 'Yes. The Free plan includes unlimited cards and up to 10 boards per workspace, with no credit card required. Upgrade only when your team needs more.' },
+    { q: 'Is Code Web Không Khó really free to start?', a: 'Yes. The Free plan includes unlimited cards and up to 10 boards per workspace, with no credit card required. Upgrade only when your team needs more.' },
     { q: 'Can I collaborate with my team in real time?', a: 'Absolutely. Invite teammates to any board and see card moves, comments, and edits update live for everyone, no refresh needed.' },
     { q: 'Does it work on mobile?', a: 'Yes. The web app is fully responsive and works in any modern mobile browser, so you can manage your boards on the go.' },
     { q: 'Can I drag and drop cards between lists?', a: 'Drag-and-drop is at the heart of the product. Move cards within a list or across lists with a smooth, natural drag.' },
@@ -52,7 +52,7 @@ export const DEFAULTS = {
   ],
   footer: {
     tagline: 'The simple, fast way to organize projects and collaborate with your team.',
-    copyright: `© ${new Date().getFullYear()} Trello Clone. Built as a demo.`,
+    copyright: `© ${new Date().getFullYear()} Code Web Không Khó. Built as a demo.`,
   },
 };
 

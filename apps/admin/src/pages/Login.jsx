@@ -52,7 +52,7 @@ export function LoginPage() {
             <Shield size={26} />
           </span>
           <span style={{ fontFamily: font.display, fontSize: 22, fontWeight: 700, color: '#FFFFFF' }}>
-            Trello Admin
+            Code Web Không Khó Admin
           </span>
         </div>
 

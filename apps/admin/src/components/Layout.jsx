@@ -94,7 +94,7 @@ function SidebarContent({ onNavigate }) {
           <Shield size={18} />
         </span>
         <span style={{ fontFamily: font.display, fontSize: 18, fontWeight: 700, color: '#FFFFFF' }}>
-          Trello Admin
+          Code Web Không Khó Admin
         </span>
       </div>
       <nav style={{ display: 'flex', flexDirection: 'column', gap: space.sm, padding: `0 ${space.md}`, overflowY: 'auto' }}>

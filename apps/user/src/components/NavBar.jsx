@@ -93,7 +93,7 @@ function Logo({ onClick }) {
         <span style={{ width: 6, height: 11, background: color.blue, borderRadius: 2 }} />
       </span>
       <span style={{ fontFamily: font.display, fontSize: 22, fontWeight: 800, color: color.blue, letterSpacing: '-0.5px' }}>
-        Trello
+        Code Web Không Khó
       </span>
     </button>
   );

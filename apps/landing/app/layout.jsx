@@ -1,20 +1,20 @@
 import './globals.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://103.179.189.81:3000';
-const TITLE = 'Trello Clone — Organize anything, together';
+const TITLE = 'Code Web Không Khó — Organize anything, together';
 const DESCRIPTION =
-  'Boards, lists, and cards to organize your projects and collaborate with your team in real time. A fast, simple Trello clone, free to start.';
+  'Boards, lists, and cards to organize your projects and collaborate with your team in real time. A fast, simple Code Web Không Khó, free to start.';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE,
-    template: '%s | Trello Clone',
+    template: '%s | Code Web Không Khó',
   },
   description: DESCRIPTION,
-  applicationName: 'Trello Clone',
+  applicationName: 'Code Web Không Khó',
   keywords: [
-    'trello clone',
+    'Code Web Không Khó',
     'kanban board',
     'project management',
     'task management',
@@ -23,13 +23,13 @@ export const metadata = {
     'agile',
     'productivity',
   ],
-  authors: [{ name: 'Trello Clone' }],
+  authors: [{ name: 'Code Web Không Khó' }],
   alternates: { canonical: '/' },
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,
     url: SITE_URL,
-    siteName: 'Trello Clone',
+    siteName: 'Code Web Không Khó',
     type: 'website',
     locale: 'en_US',
   },
@@ -57,14 +57,14 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Organization',
-      name: 'Trello Clone',
+      name: 'Code Web Không Khó',
       url: SITE_URL,
       description: DESCRIPTION,
       logo: `${SITE_URL}/icon.png`,
     },
     {
       '@type': 'SoftwareApplication',
-      name: 'Trello Clone',
+      name: 'Code Web Không Khó',
       applicationCategory: 'BusinessApplication',
       operatingSystem: 'Web',
       url: SITE_URL,

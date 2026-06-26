@@ -142,7 +142,7 @@ export function SystemSettingsPage() {
             <Input label="Host" placeholder="smtp.example.com" value={smtp.host ?? ''} onChange={(e) => setSmtp('host', e.target.value)} />
             <Input label="Port" type="number" placeholder="587" value={smtp.port ?? ''} onChange={(e) => setSmtp('port', e.target.value)} />
             <Input label="User" placeholder="no-reply@example.com" value={smtp.user ?? ''} onChange={(e) => setSmtp('user', e.target.value)} />
-            <Input label="From address" placeholder="Trello <no-reply@example.com>" value={smtp.from ?? ''} onChange={(e) => setSmtp('from', e.target.value)} />
+            <Input label="From address" placeholder="Code Web Không Khó <no-reply@example.com>" value={smtp.from ?? ''} onChange={(e) => setSmtp('from', e.target.value)} />
           </div>
         </SectionCard>
       </div>

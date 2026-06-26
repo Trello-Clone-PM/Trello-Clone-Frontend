@@ -19,7 +19,7 @@ export function AuthShell({ title, subtitle, children, footer }) {
             <span style={{ width: 6, height: 9, background: color.blue, borderRadius: 2 }} />
           </span>
           <span style={{ fontFamily: font.display, fontSize: 26, fontWeight: 700, color: color.white, letterSpacing: '-0.5px' }}>
-            Trello
+            Code Web Không Khó
           </span>
         </div>
 

@@ -180,7 +180,7 @@ export function Settings() {
       <Card style={{ display: 'flex', flexDirection: 'column', gap: space.base }}>
         <h2 style={sectionTitle}>Appearance</h2>
         <div style={{ fontFamily: font.text, fontSize: 14, color: color.textMuted }}>
-          Choose how Trello looks to you.
+          Choose how Code Web Không Khó looks to you.
         </div>
         <div style={{ display: 'flex', gap: space.sm, flexWrap: 'wrap' }}>
           {THEMES.map((o) => (
